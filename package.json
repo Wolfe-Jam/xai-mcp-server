@@ -1,0 +1,30 @@
+{
+  "name": "xai-faf-core",
+  "version": "0.4.1",
+  "private": true,
+  "description": "The Crown: Rust MCP Engine for FAF - xAI Pitch Package",
+  "author": "wolfejam <wolfejam@faf.one>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfe-Jam/xai-faf-core.git"
+  },
+  "keywords": [
+    "faf",
+    "mcp",
+    "rust",
+    "ai-context",
+    "grok",
+    "xai"
+  ],
+  "scripts": {
+    "build": "cargo build --release",
+    "test": "cargo test",
+    "lint": "cargo clippy --all-targets",
+    "demo": "./demo.sh",
+    "dev:ui": "cd svelte-ui && npm run dev"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

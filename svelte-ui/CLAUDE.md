@@ -1,0 +1,168 @@
+# CLAUDE.md - FAF Website Development
+
+## 🛑 NO BS ZONE 🛑
+**This is a NO BS Zone. We are credible, we have amazing FACTS, we can use our own stats. The whole brand is built on TRUST!**
+
+**No fake team numbers, no made-up testimonials, no inflated statistics. Just the real, hard-earned achievements that took thousands of hours to build.**
+
+## Project Overview
+- **Project**: faf.one website
+- **Stack**: SvelteKit with Svelte 5 runes
+- **Purpose**: The official format authority for .faf - Project DNA ✨ for ANY AI - AI Context, On-Demand.
+
+## Real Achievements Only
+- ☑️ MCP (Model Context Protocol) with 800+ weekly downloads
+- ☑️ Chrome Extension approved by Google and LIVE in Chrome Web Store  
+- ☑️ 10,000+ projects tested (verified)
+- ☑️ 9.3/10 AI average rating (from actual testing)
+- ☑️ 154+ formats validated
+- ☑️ <50ms processing time achieved
+
+## The Real Journey
+- From .iff (Commodore Amiga) to .faf - 4 decades of format expertise
+- Complex formats for color and simulation in the Carpet Industry
+- Thousands of hours of expert development work
+- Not a product sale - this is THE format authority
+
+## Brand Guidelines
+- **Colors**: FAF orange (#FF6B35), cream, black, white
+- **Approved emojis**: 🧡 ⚡️ 🏁 🏆 🏎️ 🍊 ⌚ ☑️ (use ☑️ not ✅ wherever possible)
+- **Format**: YAML and 🍜 noodles for AI, converts to markdown/TXT for humans
+- **Brand Name**: Always `.faf` (lowercase) when referring to the format
+- **Tagline**: "Project DNA ✨ for ANY AI - AI Context, On-Demand." with 🧡 (human) and 🩵 (AI) heart emojis
+- **Tagline Style**: White, bold, underlined for maximum impact
+- **Tagline Alignment**: Can be left-aligned or right-aligned, but NEVER centered
+
+## Development Rules - TRUST IS EVERYTHING
+1. NEVER add fake statistics or claims
+2. NEVER inflate numbers or achievements  
+3. NEVER change carefully crafted text without permission
+4. Every claim must be verifiable and earned
+5. Respect the thousands of hours of work that created this
+6. **We have AMAZING REAL facts - use them!**
+7. **Our credibility is our superpower**
+8. **TRUST is the foundation of the entire .faf brand**
+
+## Testing & Performance
+- Target: <50ms per operation (achieved)
+- Status: Championship grade performance
+- All features must work properly before claiming they do
+
+## 🔧 Dev Server Issues (Common Problems)
+
+### Problem 1: Server Crashes (Exit Code 137)
+**Symptom:** `localhost refused to connect` or dev server stops responding
+
+**Fix:**
+```bash
+# Restart dev server
+cd /Users/wolfejam/FAF/faf-one-svelte-new && npm run dev
+```
+
+**Background Command:**
+If running in background, kill old process first, then restart with `run_in_background: true`
+
+### Problem 2: JSON Code Blocks Cause Syntax Errors
+**Symptom:** `[plugin:vite-plugin-svelte] Expected token }` when adding JSON examples
+
+**Wrong:**
+```svelte
+<code>{
+  "key": "value"
+}</code>
+```
+
+**Correct:**
+```svelte
+<code>{`{
+  "key": "value"
+}`}</code>
+```
+
+**Rule:** Always wrap JSON code blocks with template literals `{``}` in Svelte files
+
+### Problem 3: Hot Reload Fails
+**Symptom:** Changes don't appear after saving files
+
+**Fix:**
+1. Hard refresh browser (Cmd+Shift+R on macOS)
+2. If that fails, restart dev server
+3. Clear Vite cache: `rm -rf node_modules/.vite`
+
+### Dev Server Best Practices
+- Run dev server in background for long sessions
+- Watch for exit code 137 (out of memory)
+- Always escape curly braces in code examples
+- Test new blog posts in browser before committing
+
+## 🏁 GOLDEN RULES - Professional Standards
+
+### 🚨 NPM PUBLISH PROTOCOL - DOES NOT APPLY
+
+**This is a SvelteKit website, NOT an npm package.**
+- No npm publish workflow
+- Changes deploy via git push
+- Professional git commits still required (see below)
+
+**For FAF package publishes** (faf-cli, claude-faf-mcp, faf-mcp):
+- See `/Users/wolfejam/FAF-GOLD/PLANET-FAF/PUBLISH-PROTOCOL.md`
+- Never publish without "GO!" or "GREEN LIGHT" from wolfejam
+
+### Git Commit Protocol (REQUIRED)
+**Every commit must follow this exact format:**
+```
+<type>: <what changed>
+
+- <specific change 1>
+- <specific change 2>
+```
+
+**Types:** `fix:` `feat:` `docs:` `refactor:` `chore:` `test:`
+
+**Examples:**
+- `fix: Update PR reference to #2759`
+- `feat: Add discussions link to navigation`
+- `docs: Correct download statistics`
+
+**NEVER:**
+- No exclamation marks
+- No emotion or excitement
+- No marketing language
+- No "finally" or "at last"
+- No false claims about approval
+
+### NPM Publish Protocol (APPROVAL REQUIRED)
+**Before ANY npm publish:**
+1. Get explicit approval from wolfejam
+2. Verify all claims are factual
+3. Update version following semver
+4. Test in isolation first
+5. Use boring release notes
+
+**Release note format:**
+```
+v1.2.3
+
+- Fix: Corrected dependency issue
+- Feat: Added new command option
+- Docs: Updated installation guide
+```
+
+### The Professional Standard
+- **Boring is good**
+- **Facts only**
+- **Trust is everything**
+- **If Anthropic reads it, would they approve?**
+- **When in doubt, make it more boring**
+
+### Critical: Publishing & Committing
+- **Git commits**: Follow protocol or don't commit
+- **NPM publishes**: Require explicit approval
+- **False claims**: Could kill PR #2759
+- **Trust violations**: Unforgivable
+
+Remember: We're playing at the level where Anthropic might actually merge our PR. Act like it.
+
+---
+*This is serious work, not marketing fluff. Treat it with respect.*
+*Professional. Boring. Trusted.*

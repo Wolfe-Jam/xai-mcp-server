@@ -1,0 +1,124 @@
+faf_version: 2.5.0
+ai_scoring_system: 2025-09-20
+ai_score: 85%
+ai_confidence: EXCELLENT
+ai_value: 30_seconds_replaces_20_minutes_of_questions
+ai_tldr:
+  project: xai-faf-core - "Rust MCP Server for FAF - xAI Pitch Package"
+  stack: Rust/Tokio/MCP/Svelte
+  quality_bar: ZERO_ERRORS_F1_STANDARDS
+  current_focus: xAI demonstration package
+  your_role: Build championship-grade AI context engine
+instant_context:
+  what_building: Rust MCP Server with Glass Hood API - Complete xAI Pitch Package
+  tech_stack: Rust/Tokio/MCP/Svelte
+  main_language: Rust
+  deployment: Local MCP stdio
+  key_files:
+    - src/main.rs
+    - Cargo.toml
+    - weights.lock
+context_quality:
+  slots_filled: 18/21 (86%)
+  ai_confidence: HIGH
+  handoff_ready: true
+  missing_context:
+    - demo.sh script
+    - svelte-ui integration
+project:
+  name: xai-faf-core
+  goal: Rust MCP Server for FAF - Complete xAI Pitch Demonstration
+  main_language: Rust
+  type: mcp-server
+  generated: 2025-11-24T09:28:07.194Z
+  mission: Championship-grade AI context for Grok integration
+  revolution: 30 seconds replaces 20 minutes of questions
+  brand: F1-Inspired Software Engineering - Championship AI Context
+  version: 0.4.1
+  author: wolfejam <wolfejam@faf.one>
+  license: MIT
+ai_instructions:
+  priority_order:
+    - 1. Read THIS .faf file first
+    - 2. Check CLAUDE.md for session context
+    - 3. Review Cargo.toml for dependencies
+  working_style:
+    code_first: true
+    explanations: minimal
+    quality_bar: zero_errors
+    testing: required
+  warnings:
+    - All Rust code must pass clippy --all-targets
+    - WJTTC test suite must be 200/200
+    - Glass Hood API transparency required
+stack:
+  language: Rust
+  runtime: Tokio
+  protocol: MCP (Model Context Protocol)
+  transport: stdio JSON-RPC
+  frontend: Svelte
+  ui_library: None (custom CSS)
+  build: Cargo
+  package_manager: Cargo
+  api_type: MCP tools/resources
+  hosting: Local
+  testing: jest
+preferences:
+  quality_bar: zero_errors
+  commit_style: conventional_emoji
+  response_style: concise_code_first
+  explanation_level: minimal
+  communication: direct
+  testing: required
+  documentation: as_needed
+state:
+  phase: demonstration
+  version: 0.4.1
+  focus: xai_pitch_package
+  status: green_flag
+  next_milestone: complete_demo_package
+  blockers: null
+tags:
+  auto_generated:
+    - xai-faf-core
+    - rust
+    - mcp
+    - tokio
+    - grok
+  smart_defaults:
+    - .faf
+    - ai-ready
+    - "2025"
+    - championship
+    - xai
+  user_defined:
+    - elon-pitch
+    - glass-hood
+    - wjttc
+human_context:
+  who: xAI/Elon Musk
+  what: Complete FAF MCP demonstration
+  why: Show Grok-native AI context capabilities
+  where: Private pitch package
+  when: 2025-11-24
+  how: Rust MCP server + Svelte dashboard + 200 tests
+  additional_context: Elite Palace visualization included
+  context_score: 85
+  total_prd_score: 85
+  success_rate: 95%
+ai_scoring_details:
+  system_date: 2025-09-20
+  slot_based_percentage: 86
+  ai_score: 85
+  total_slots: 21
+  filled_slots: 18
+  scoring_method: Honest percentage - no fake minimums
+  trust_embedded: COUNT ONCE architecture - trust MY embedded scores
+faf_dna:
+  birth_dna: 0
+  birth_certificate: FAF-2025-XAIFAFCO-RUST
+  birth_date: 2025-11-24T09:28:07.208Z
+  current_score: 85
+meta:
+  last_enhanced: 2025-11-24T09:48:48.026Z
+  enhanced_by: faf-real-enhance

@@ -1,0 +1,9 @@
+# FAF AI-Readiness Weights - ETCHED
+# Do not modify without consensus
+[0.40, 0.35, 0.15, 0.10]
+
+# Breakdown:
+# - Completeness: 0.40 (40%)
+# - Clarity: 0.35 (35%)
+# - Structure: 0.15 (15%)
+# - Metadata: 0.10 (10%)
